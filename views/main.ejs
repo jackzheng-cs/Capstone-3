@@ -12,12 +12,26 @@
     <div class="wrapper">
       <header>
         <h2>Blogin</h2>
-        <h1>BLOG</h1>
+
         <nav>
           <button id="createPostBtn">Create Blog</button>
           <%- include("form.ejs") %>
         </nav>
       </header>
+
+      <main>
+        <section class="hero">
+          <img src="/images/hero.webp" alt="Hero Image" />
+
+          <div class="hero-content">
+            <h1>Welcome to Blogin</h1>
+
+            <p>
+              A simple web application to create, modify, or delete blog posts!
+            </p>
+          </div>
+        </section>
+      </main>
     </div>
 
     <script src="/js/main.js"></script>

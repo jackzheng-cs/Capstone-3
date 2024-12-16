@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const createPostBtn = document.getElementById("createPostBtn");
   const formModal = document.getElementById("formModal");
   const closeModal = document.getElementById("closeModal");
+  const blogForm = document.getElementById("blogForm");
 
   // Show the modal when the button is clicked
   createPostBtn.addEventListener("click", () => {
@@ -18,5 +19,12 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.target === formModal) {
       formModal.style.display = "none";
     }
+  });
+
+  blogForm.addEventListener("submit", (event) => {
+    event.preventDefault(); // Prevent the default form submission
+
+    const title = document.getElementById("title").value;
+    const content = document.getElementById("content").value;
   });
 });

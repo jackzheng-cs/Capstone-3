@@ -6,7 +6,11 @@ const port = 3000;
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.render("index.ejs");
+  res.render("main.ejs");
+});
+
+app.post("/blog", (req, res) => {
+  res.render("blog.ejs");
 });
 
 app.listen(port, () => {
