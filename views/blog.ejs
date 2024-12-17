@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="/styles/blog.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/forms.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Blogin</h2>
+      <h1>Blog</h1>
+      <nav>
+        <button id="createPostBtn">Create Blog</button>
+        <%- include("form.ejs") %>
+      </nav>
+    </header>
+
+    <main>
+      <div class="blog-container"></div>
+    </main>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>

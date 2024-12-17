@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   res.render("main.ejs");
 });
 
-app.post("/blog", (req, res) => {
+app.get("/blog", (req, res) => {
   res.render("blog.ejs");
 });
 
