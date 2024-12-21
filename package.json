@@ -6,7 +6,7 @@
   "name": "capstone-3",
   "version": "1.0.0",
   "description": "Capstone project on creating a blog application using Node.js, Express.js, and EJS. Features include: post creation, post viewing, post updating/deleting, and styling.",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
