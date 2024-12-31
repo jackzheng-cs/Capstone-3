@@ -1,24 +1,29 @@
 /* Header CSS */
-
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100vw;
   height: 100px;
   margin: 0;
 
+  gap: 150px;
   border-bottom: 1px solid black;
 }
 
-h2 {
-  padding-left: 10%;
-
-  font-size: 32px;
+header a {
+  text-decoration: none;
+  text-align: center;
+  color: inherit;
 }
 
-nav {
-  margin-right: 5%;
+header a:hover,
+button:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 32px;
 }
 
 #createPostBtn {

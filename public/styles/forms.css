@@ -41,8 +41,10 @@
   flex-direction: column;
   position: relative;
   padding: 20px;
-  height: 40%;
+  max-height: 70vh;
   width: 40%;
+
+  overflow-y: auto;
 
   background-color: white;
   border-radius: 8px;
