@@ -85,3 +85,7 @@ button {
 button:hover {
   background-color: #d57923;
 }
+
+#deleteBtn {
+  margin-top: 4px;
+}
