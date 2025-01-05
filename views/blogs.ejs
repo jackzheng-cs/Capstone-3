@@ -14,7 +14,7 @@
     <main>
       <div class="blog-grid">
         <% if (blogs.length > 0) { %> <% blogs.forEach(blog => { %>
-        <div class="blog">
+        <div class="blog" data-id="<%= blog.id %>">
           <h2><%= blog.title %></h2>
           <p><%= blog.content %></p>
         </div>
